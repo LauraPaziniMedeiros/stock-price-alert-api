@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="StockPriceAlert.Tests/StockPriceAlert.Tests.csproj" />
+  <Project Path="StockPriceAlert/StockPriceAlert.csproj" />
+</Solution>
