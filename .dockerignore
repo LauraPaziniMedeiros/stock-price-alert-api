@@ -1,0 +1,20 @@
+# Build and cache directories
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/.idea
+**/bin
+**/obj
+**/TestResults
+**/publish
+
+# Sensitive configuration files (pass via environment variables or volume mount)
+**/appsettings.local.json
+**/secrets.json
+
+# Docker and documentation files
+Dockerfile
+.dockerignore
+README.md
+LICENSE

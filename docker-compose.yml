@@ -1,0 +1,9 @@
+services:
+  stock-alert:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: stock-alert:latest
+    volumes:
+      # Mount local configuration in read-only mode so credentials remain on host
+      - ./StockPriceAlert/appsettings.local.json:/app/appsettings.local.json:ro
